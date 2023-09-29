@@ -1,0 +1,38 @@
+aside {
+  width: 500px;
+}
+aside h4 {
+  font-weight: bold;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+.interests-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.interests-container p {
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+  color: gray;
+}
+
+.dynamic-footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid rgb(179, 179, 179);
+}
+
+.dynamic-footer li {
+  padding: 5px;
+  margin-top: 5px;
+  margin-right: 20px;
+  color: gray;
+}

@@ -1,0 +1,63 @@
+article {
+  width: 60%;
+  display: flex;
+}
+
+.articles {
+  margin: 40px 0;
+  display: flex;
+
+  /* justify-content: space-between; */
+}
+
+.articles h4 {
+  font-size: 1.3em;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.cards {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+}
+
+.img-container {
+  width: 250px;
+}
+.img-container img {
+  width: 100%;
+}
+
+.articles-title {
+  display: flex;
+  align-items: center;
+}
+
+.articles-title img {
+  border-radius: 50%;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.bg {
+  display: flex;
+  align-items: center;
+}
+
+.bg :nth-child(3) {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  border-radius: 15px;
+  background-color: rgb(236, 236, 236);
+}
+
+.bookmark {
+  width: 30px;
+  position: absolute;
+  top: 130px;
+  right: 20px;
+}

@@ -1,0 +1,93 @@
+header {
+  width: 100%;
+  background-color: #ffc017;
+  border-bottom: 2px solid #191919;
+}
+
+/* NAV */
+
+.nav-container {
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #191919;
+  position: fixed;
+  background-color: #ffc017;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.scrolled {
+  background-color: white;
+}
+
+header nav img {
+  width: 200px;
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 60%;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  margin: 0 15px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.start {
+  color: white;
+  background-color: #191919;
+  padding: 15px;
+  border-radius: 25px;
+  transition: background-color 0.4s ease-in-out;
+}
+.started-bg {
+  background-color: rgb(26, 137, 23);
+}
+
+/* TITLE CONTAINER */
+
+.title-container {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.side-title {
+  width: 60%;
+  margin-top: 50px;
+}
+
+.title-container h1 {
+  font-size: 8em;
+  margin: 10px 0;
+}
+
+.title-container h2 {
+  font-size: 2em;
+  margin: 30px 0;
+  width: 550px;
+}
+
+.title-container p {
+  font-size: 1.5em;
+  margin: 40px 0;
+  color: white;
+  background-color: #191919;
+  padding: 10px;
+  border-radius: 30px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
